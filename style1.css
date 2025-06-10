@@ -25,6 +25,21 @@
     object-fit: cover;
 }
 
+img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+/* Zoom saat hover */
+img:hover {
+    transform: scale(1.05);
+}
+
+/* Zoom sedikit lebih besar saat diklik */
+img:active {
+    transform: scale(1.1);
+}
+
 .tim img {
     width: 250px;
     height: 250px;
